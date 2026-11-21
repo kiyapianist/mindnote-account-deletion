@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>MindNote Account &amp; Data Deletion</title>
+  <meta name="description" content="Delete your MindNote account and synced data, or remove individual notes.">
+  <style>
+    :root { color-scheme: light; font: 100%/1.6 system-ui, sans-serif; color: #221c32; background: #f5f2fa; }
+    * { box-sizing: border-box; }
+    main { max-width: 46rem; padding: 3rem 1.25rem; margin: auto; }
+    header, section { padding: clamp(1.2rem, 4vw, 2rem); background: white; border: 1px solid #dfd6ef; border-radius: 1rem; }
+    section { margin-top: 1rem; }
+    h1, h2 { line-height: 1.2; margin: 0 0 .65rem; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); }
+    h2 { font-size: 1.25rem; }
+    p { margin: 0 0 .8rem; }
+    p:last-child { margin-bottom: 0; }
+    .brand { color: #543ab2; font-weight: 700; }
+    a { color: #482ca5; }
+    a:focus-visible { outline: 3px solid #482ca5; outline-offset: 4px; }
+    .action { display: inline-block; background: #482ca5; color: white; padding: .65rem 1rem; border-radius: .55rem; font-weight: 700; }
+    li + li { margin-top: .45rem; }
+    footer { margin-top: 1.5rem; font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="brand">MindNote · Kia Mokhtari</p>
+      <h1>Account &amp; Data Deletion</h1>
+      <p>You can delete your MindNote account and synced data from any web browser, including after uninstalling the app.</p>
+      <a class="action" href="https://mindnote-api-zqqa.onrender.com/web/account-deletion.html">Start account deletion</a>
+    </header>
+
+    <section>
+      <h2>Delete your account</h2>
+      <ol>
+        <li>Open the deletion form and enter the email address you use to sign in to MindNote.</li>
+        <li>Request a verification code. It expires 10 minutes after it is sent.</li>
+        <li>Enter the code, confirm that you want to delete your account, and select <strong>Permanently delete my account</strong>. Wait for a confirmation on screen.</li>
+      </ol>
+      <p>In the Android app, open <strong>Profile → Delete account and data</strong> to start the same process.</p>
+      <p>If you cannot use the form, email <a href="mailto:kiapianist2004@gmail.com?subject=MindNote%20account%20deletion">kiapianist2004@gmail.com</a> from your MindNote address and ask to delete your account. The developer will verify that you control the account before processing the request. Keep your verification code private.</p>
+    </section>
+
+    <section>
+      <h2>Delete an individual note</h2>
+      <p>In the Android app, open the note’s <strong>Note options</strong> menu and select <strong>Permanently delete</strong>. If the note is in Trash, open the Trash filter and use the same menu. In MindNote on the web, open the note and select <strong>Delete note</strong>. Confirm the deletion to remove that synced note and keep your account.</p>
+    </section>
+
+    <section>
+      <h2>What is deleted and when</h2>
+      <p>Once the web form confirms success, MindNote has removed your synced notes, including drawings and notes in Trash, your account-linked AI request counts, and your remembered device sessions from its active database. It also ends existing sign-in sessions. A verified email request removes these hosted records when the developer completes the request.</p>
+      <p>MindNote keeps active cloud data until you delete it. After deletion succeeds, there is no recovery period in MindNote. Your email can be used to sign up again with an empty workspace.</p>
+    </section>
+
+    <section>
+      <h2>Data that may remain</h2>
+      <p>Device-only files and settings, including recordings, copied attachments, reminders and vault entries, remain on devices where they were saved. To remove them, clear MindNote’s app storage in Android Settings on each device. Delete exported backups and copies you saved elsewhere separately.</p>
+      <p>Hosting, verification-email and AI providers may retain backups, operational logs or records required for security or legal purposes under their own policies. MindNote’s deletion form removes data from the active MindNote database. It does not set those providers’ retention periods or erase messages from your email inbox.</p>
+    </section>
+
+    <footer>
+      <a href="https://gist.github.com/kiyapianist/974681f02ca812034078477f1af18498">MindNote Privacy Policy</a>
+    </footer>
+  </main>
+</body>
+</html>
